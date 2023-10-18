@@ -1,0 +1,17 @@
+package com.jdc.weekend.test;
+
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+
+public class Main {
+
+	EntityManagerFactory emf;
+	EntityManager em;
+	
+	void init() {
+		emf.createEntityManager();
+	
+		
+	}
+	
+}

@@ -1,0 +1,13 @@
+package com.jdc.weekend.entity;
+
+import jakarta.persistence.EmbeddedId;
+
+public class ProductSale {
+
+	@EmbeddedId
+	private ProductSalePk id;
+	
+	private int productId;
+	pirvate int saleId;
+	
+}
