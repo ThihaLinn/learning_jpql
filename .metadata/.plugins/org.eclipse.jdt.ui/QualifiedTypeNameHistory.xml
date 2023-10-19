@@ -10,7 +10,6 @@
     <fullyQualifiedTypeName name="com.jdc.weekend.test.Main"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="com.jdc.weekend.entity.Township"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Embeddable"/>
     <fullyQualifiedTypeName name="com.jdc.weekend.entity.ProductSalePk"/>
     <fullyQualifiedTypeName name="jakarta.persistence.EmbeddedId"/>
@@ -31,5 +30,9 @@
     <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
     <fullyQualifiedTypeName name="com.jdc.weekend.entity.Address"/>
     <fullyQualifiedTypeName name="jakarta.persistence.OneToOne"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
     <fullyQualifiedTypeName name="com.jdc.weekend.entity.Customer"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.params.ParameterizedTest"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.params.provider.CsvSource"/>
+    <fullyQualifiedTypeName name="com.jdc.weekend.test.ProductTest"/>
 </qualifiedTypeNameHistroy>
