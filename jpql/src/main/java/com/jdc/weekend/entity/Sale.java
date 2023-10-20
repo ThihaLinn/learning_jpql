@@ -1,6 +1,6 @@
 package com.jdc.weekend.entity;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -20,7 +20,7 @@ public class Sale {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	@Column(nullable = false,name = "sale_date")
-	private LocalDateTime saleDate;
+	private LocalDate saleDate;
 	@ManyToOne
 	private Customer customer;
 //	@OneToMany
