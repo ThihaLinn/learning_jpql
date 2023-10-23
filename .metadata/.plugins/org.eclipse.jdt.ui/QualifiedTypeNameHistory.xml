@@ -15,7 +15,6 @@
     <fullyQualifiedTypeName name="jakarta.persistence.MapsId"/>
     <fullyQualifiedTypeName name="com.jdc.weekend.entity.ProductSale"/>
     <fullyQualifiedTypeName name="jakarta.persistence.OneToMany"/>
-    <fullyQualifiedTypeName name="com.jdc.weekend.entity.Product"/>
     <fullyQualifiedTypeName name="com.jdc.weekend.entity.Sale"/>
     <fullyQualifiedTypeName name="com.jdc.weekend.entity.Address"/>
     <fullyQualifiedTypeName name="jakarta.persistence.OneToOne"/>
@@ -25,7 +24,6 @@
     <fullyQualifiedTypeName name="org.junit.jupiter.params.provider.CsvSource"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.jdc.weekend.entity.Category"/>
     <fullyQualifiedTypeName name="jakarta.persistence.ManyToOne"/>
@@ -34,12 +32,18 @@
     <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
     <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="com.jdc.weekend.entity.Supplier"/>
     <fullyQualifiedTypeName name="jakarta.persistence.JoinTable"/>
-    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
     <fullyQualifiedTypeName name="jakarta.persistence.JoinColumn"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.ManyToMany"/>
     <fullyQualifiedTypeName name="com.jdc.weekend.Main"/>
+    <fullyQualifiedTypeName name="com.jdc.weekend.AbstractTest"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
+    <fullyQualifiedTypeName name="com.jdc.weekend.entity.Supplier"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.ManyToMany"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.jdc.weekend.entity.Product"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.jdc.weekend.dto.SupplierDto"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Order"/>
 </qualifiedTypeNameHistroy>

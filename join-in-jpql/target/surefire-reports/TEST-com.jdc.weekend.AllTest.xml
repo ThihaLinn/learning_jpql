@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.jdc.weekend.AllTest" time="11.977" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/thiha/Documents/workspace/join-in-jpql/target/test-classes:/home/thiha/Documents/workspace/join-in-jpql/target/classes:/home/thiha/.m2/repository/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar:/home/thiha/.m2/repository/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar:/home/thiha/.m2/repository/org/hibernate/orm/hibernate-core/6.3.1.Final/hibernate-core-6.3.1.Final.jar:/home/thiha/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/home/thiha/.m2/repository/org/jboss/logging/jboss-logging/3.5.0.Final/jboss-logging-3.5.0.Final.jar:/home/thiha/.m2/repository/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar:/home/thiha/.m2/repository/io/smallrye/jandex/3.1.2/jandex-3.1.2.jar:/home/thiha/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/home/thiha/.m2/repository/net/bytebuddy/byte-buddy/1.14.7/byte-buddy-1.14.7.jar:/home/thiha/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar:/home/thiha/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.0/jakarta.activation-api-2.1.0.jar:/home/thiha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.2/jaxb-runtime-4.0.2.jar:/home/thiha/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.2/jaxb-core-4.0.2.jar:/home/thiha/.m2/repository/org/eclipse/angus/angus-activation/2.0.0/angus-activation-2.0.0.jar:/home/thiha/.m2/repository/org/glassfish/jaxb/txw2/4.0.2/txw2-4.0.2.jar:/home/thiha/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.1/istack-commons-runtime-4.1.1.jar:/home/thiha/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/home/thiha/.m2/repository/org/antlr/antlr4-runtime/4.10.1/antlr4-runtime-4.10.1.jar:/home/thiha/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:/home/thiha/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/home/thiha/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/thiha/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/home/thiha/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/home/thiha/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/thiha/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/home/thiha/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/thiha/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/home/thiha/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/home/thiha/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Rangoon"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/home/thiha/Application/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.8.v20230831-1047/jre/lib"/>
+    <property name="sun.java.command" value="/home/thiha/Documents/workspace/join-in-jpql/target/surefire/surefirebooter-20231023193555267_3.jar /home/thiha/Documents/workspace/join-in-jpql/target/surefire 2023-10-23T19-35-55_098-jvmRun1 surefire-20231023193555267_1tmp surefire_0-20231023193555267_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/thiha/Documents/workspace/join-in-jpql/target/test-classes:/home/thiha/Documents/workspace/join-in-jpql/target/classes:/home/thiha/.m2/repository/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar:/home/thiha/.m2/repository/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar:/home/thiha/.m2/repository/org/hibernate/orm/hibernate-core/6.3.1.Final/hibernate-core-6.3.1.Final.jar:/home/thiha/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/home/thiha/.m2/repository/org/jboss/logging/jboss-logging/3.5.0.Final/jboss-logging-3.5.0.Final.jar:/home/thiha/.m2/repository/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar:/home/thiha/.m2/repository/io/smallrye/jandex/3.1.2/jandex-3.1.2.jar:/home/thiha/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/home/thiha/.m2/repository/net/bytebuddy/byte-buddy/1.14.7/byte-buddy-1.14.7.jar:/home/thiha/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar:/home/thiha/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.0/jakarta.activation-api-2.1.0.jar:/home/thiha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.2/jaxb-runtime-4.0.2.jar:/home/thiha/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.2/jaxb-core-4.0.2.jar:/home/thiha/.m2/repository/org/eclipse/angus/angus-activation/2.0.0/angus-activation-2.0.0.jar:/home/thiha/.m2/repository/org/glassfish/jaxb/txw2/4.0.2/txw2-4.0.2.jar:/home/thiha/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.1/istack-commons-runtime-4.1.1.jar:/home/thiha/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/home/thiha/.m2/repository/org/antlr/antlr4-runtime/4.10.1/antlr4-runtime-4.10.1.jar:/home/thiha/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:/home/thiha/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/home/thiha/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/thiha/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/home/thiha/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/home/thiha/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/thiha/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/home/thiha/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/thiha/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/home/thiha/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/home/thiha/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/thiha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-08-24"/>
+    <property name="java.home" value="/home/thiha/Application/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.8.v20230831-1047/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="/home/thiha/Documents/workspace/join-in-jpql"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/thiha/Documents/workspace/join-in-jpql/target/surefire/surefirebooter-20231023193555267_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.8.1+1"/>
+    <property name="user.name" value="thiha"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.5.0-9-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.8.1+1"/>
+    <property name="localRepository" value="/home/thiha/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.8.1"/>
+    <property name="user.dir" value="/home/thiha/Documents/workspace/join-in-jpql"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.8.1+1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="many_to_one_test" classname="com.jdc.weekend.AllTest" time="5.736">
+    <system-out><![CDATA[Hibernate: 
+    alter table product 
+       drop 
+       foreign key FK1mtsbur82frn64de7balymq9s
+Hibernate: 
+    alter table product_supply 
+       drop 
+       foreign key FKd5kbj71vtqgobht498rfakxe9
+Hibernate: 
+    alter table product_supply 
+       drop 
+       foreign key FKtffg6kcs1pim932ltxgwjtd90
+Hibernate: 
+    drop table if exists category
+Hibernate: 
+    drop table if exists product
+Hibernate: 
+    drop table if exists product_supply
+Hibernate: 
+    drop table if exists supplier
+Hibernate: 
+    create table category (
+        id integer not null auto_increment,
+        name varchar(20) not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table product (
+        category_id integer,
+        id integer not null auto_increment,
+        name varchar(20) not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table product_supply (
+        product_id integer not null,
+        supplier_id integer not null
+    ) engine=InnoDB
+Hibernate: 
+    create table supplier (
+        id integer not null auto_increment,
+        name varchar(20),
+        phone varchar(20) not null,
+        email varchar(40) not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    alter table category 
+       add constraint UK_46ccwnsi9409t36lurvtyljak unique (name)
+Hibernate: 
+    alter table product 
+       add constraint UK_jmivyxk9rmgysrmsqw15lqr5b unique (name)
+Hibernate: 
+    alter table supplier 
+       add constraint UK_c3fclhmodftxk4d0judiafwi3 unique (name)
+Hibernate: 
+    alter table product 
+       add constraint FK1mtsbur82frn64de7balymq9s 
+       foreign key (category_id) 
+       references category (id)
+Hibernate: 
+    alter table product_supply 
+       add constraint FKd5kbj71vtqgobht498rfakxe9 
+       foreign key (supplier_id) 
+       references supplier (id)
+Hibernate: 
+    alter table product_supply 
+       add constraint FKtffg6kcs1pim932ltxgwjtd90 
+       foreign key (product_id) 
+       references product (id)
+Hibernate: insert into category (name) values ('Foods')
+Hibernate: insert into category (name) values ('Drinks')
+Hibernate: insert into category (name) values ('Mobiles')
+Hibernate: insert into product(name, category_id) values ('Potato Chips', 1)
+Hibernate: insert into product(name, category_id) values ('Fish Chips', 1)
+Hibernate: insert into product(name, category_id) values ('Coke', 2)
+Hibernate: insert into product(name, category_id) values ('Pepsi', 2)
+Hibernate: insert into product(name) values ('iPhone 13')
+Hibernate: insert into supplier (name, phone, email) values ('196 Store', '0911889900', 'store196@gmail.com')
+Hibernate: insert into supplier (name, phone, email) values ('Star Shop', '0911889911', 'starshop@gmail.com')
+Hibernate: insert into supplier (name, phone, email) values ('Moon Star', '0911889922', 'moonstar@gmail.com')
+Hibernate: insert into product_supply(product_id, supplier_id) values (1, 1)
+Hibernate: insert into product_supply(product_id, supplier_id) values (2, 1)
+Hibernate: insert into product_supply(product_id, supplier_id) values (3, 2)
+Hibernate: insert into product_supply(product_id, supplier_id) values (4, 2)
+Hibernate: 
+    select
+        p1_0.id,
+        c1_0.id,
+        c1_0.name,
+        p1_0.name 
+    from
+        product p1_0 
+    left join
+        category c1_0 
+            on c1_0.id=p1_0.category_id 
+    where
+        p1_0.id=?
+Hibernate: 
+    select
+        p1_0.category_id,
+        p1_0.id,
+        p1_0.name 
+    from
+        product p1_0 
+    where
+        p1_0.category_id=?
+Drinks
+]]></system-out>
+    <system-err><![CDATA[Oct 23, 2023 7:35:56 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [name: join-in-jpql]
+Oct 23, 2023 7:35:56 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 6.3.1.Final
+Oct 23, 2023 7:35:56 PM org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl lambda$normalizeConnectionAccessUserAndPass$6
+WARN: HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.user], use [jakarta.persistence.jdbc.user] instead
+Oct 23, 2023 7:35:56 PM org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl lambda$normalizeConnectionAccessUserAndPass$12
+WARN: HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.password], use [jakarta.persistence.jdbc.password] instead
+Oct 23, 2023 7:35:56 PM org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl normalizeDataAccess
+WARN: HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.url], use [jakarta.persistence.jdbc.url] instead
+Oct 23, 2023 7:35:56 PM org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl normalizeDataAccess
+WARN: HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.driver], use [jakarta.persistence.jdbc.driver] instead
+Oct 23, 2023 7:35:56 PM org.hibernate.cache.internal.RegionFactoryInitiator initiateService
+INFO: HHH000026: Second-level cache disabled
+Oct 23, 2023 7:35:57 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using built-in connection pool (not intended for production use)
+Oct 23, 2023 7:35:57 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+Oct 23, 2023 7:35:57 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/join_db]
+Oct 23, 2023 7:35:57 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=joinusr}
+Oct 23, 2023 7:35:57 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Oct 23, 2023 7:35:57 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH10001115: Connection pool size: 20 (min=1)
+Oct 23, 2023 7:35:58 PM org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator$ActionGrouping determineJpaDbActionSetting
+WARN: HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+Oct 23, 2023 7:35:59 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Oct 23, 2023 7:35:59 PM org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator$ActionGrouping determineJpaDbActionSetting
+WARN: HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+Oct 23, 2023 7:35:59 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@14ed7ddf] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 23, 2023 7:36:00 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4d25f816] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 23, 2023 7:36:02 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/join_db]
+]]></system-err>
+  </testcase>
+  <testcase name="one_to_one_test" classname="com.jdc.weekend.AllTest" time="1.922">
+    <system-out><![CDATA[Hibernate: 
+    alter table product 
+       drop 
+       foreign key FK1mtsbur82frn64de7balymq9s
+Hibernate: 
+    alter table product_supply 
+       drop 
+       foreign key FKd5kbj71vtqgobht498rfakxe9
+Hibernate: 
+    alter table product_supply 
+       drop 
+       foreign key FKtffg6kcs1pim932ltxgwjtd90
+Hibernate: 
+    drop table if exists category
+Hibernate: 
+    drop table if exists product
+Hibernate: 
+    drop table if exists product_supply
+Hibernate: 
+    drop table if exists supplier
+Hibernate: 
+    create table category (
+        id integer not null auto_increment,
+        name varchar(20) not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table product (
+        category_id integer,
+        id integer not null auto_increment,
+        name varchar(20) not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table product_supply (
+        product_id integer not null,
+        supplier_id integer not null
+    ) engine=InnoDB
+Hibernate: 
+    create table supplier (
+        id integer not null auto_increment,
+        name varchar(20),
+        phone varchar(20) not null,
+        email varchar(40) not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    alter table category 
+       add constraint UK_46ccwnsi9409t36lurvtyljak unique (name)
+Hibernate: 
+    alter table product 
+       add constraint UK_jmivyxk9rmgysrmsqw15lqr5b unique (name)
+Hibernate: 
+    alter table supplier 
+       add constraint UK_c3fclhmodftxk4d0judiafwi3 unique (name)
+Hibernate: 
+    alter table product 
+       add constraint FK1mtsbur82frn64de7balymq9s 
+       foreign key (category_id) 
+       references category (id)
+Hibernate: 
+    alter table product_supply 
+       add constraint FKd5kbj71vtqgobht498rfakxe9 
+       foreign key (supplier_id) 
+       references supplier (id)
+Hibernate: 
+    alter table product_supply 
+       add constraint FKtffg6kcs1pim932ltxgwjtd90 
+       foreign key (product_id) 
+       references product (id)
+Hibernate: insert into category (name) values ('Foods')
+Hibernate: insert into category (name) values ('Drinks')
+Hibernate: insert into category (name) values ('Mobiles')
+Hibernate: insert into product(name, category_id) values ('Potato Chips', 1)
+Hibernate: insert into product(name, category_id) values ('Fish Chips', 1)
+Hibernate: insert into product(name, category_id) values ('Coke', 2)
+Hibernate: insert into product(name, category_id) values ('Pepsi', 2)
+Hibernate: insert into product(name) values ('iPhone 13')
+Hibernate: insert into supplier (name, phone, email) values ('196 Store', '0911889900', 'store196@gmail.com')
+Hibernate: insert into supplier (name, phone, email) values ('Star Shop', '0911889911', 'starshop@gmail.com')
+Hibernate: insert into supplier (name, phone, email) values ('Moon Star', '0911889922', 'moonstar@gmail.com')
+Hibernate: insert into product_supply(product_id, supplier_id) values (1, 1)
+Hibernate: insert into product_supply(product_id, supplier_id) values (2, 1)
+Hibernate: insert into product_supply(product_id, supplier_id) values (3, 2)
+Hibernate: insert into product_supply(product_id, supplier_id) values (4, 2)
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.name,
+        p1_0.category_id,
+        p1_0.id,
+        p1_0.name 
+    from
+        category c1_0 
+    left join
+        product p1_0 
+            on c1_0.id=p1_0.category_id 
+    where
+        c1_0.id=?
+Foods
+Potato Chips
+Fish Chips
+]]></system-out>
+    <system-err><![CDATA[Oct 23, 2023 7:36:02 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [name: join-in-jpql]
+Oct 23, 2023 7:36:02 PM org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl lambda$normalizeConnectionAccessUserAndPass$6
+WARN: HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.user], use [jakarta.persistence.jdbc.user] instead
+Oct 23, 2023 7:36:02 PM org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl lambda$normalizeConnectionAccessUserAndPass$12
+WARN: HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.password], use [jakarta.persistence.jdbc.password] instead
+Oct 23, 2023 7:36:02 PM org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl normalizeDataAccess
+WARN: HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.url], use [jakarta.persistence.jdbc.url] instead
+Oct 23, 2023 7:36:02 PM org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl normalizeDataAccess
+WARN: HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.driver], use [jakarta.persistence.jdbc.driver] instead
+Oct 23, 2023 7:36:02 PM org.hibernate.cache.internal.RegionFactoryInitiator initiateService
+INFO: HHH000026: Second-level cache disabled
+Oct 23, 2023 7:36:02 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using built-in connection pool (not intended for production use)
+Oct 23, 2023 7:36:02 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+Oct 23, 2023 7:36:02 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/join_db]
+Oct 23, 2023 7:36:02 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=joinusr}
+Oct 23, 2023 7:36:02 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Oct 23, 2023 7:36:02 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH10001115: Connection pool size: 20 (min=1)
+Oct 23, 2023 7:36:02 PM org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator$ActionGrouping determineJpaDbActionSetting
+WARN: HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+Oct 23, 2023 7:36:02 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Oct 23, 2023 7:36:02 PM org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator$ActionGrouping determineJpaDbActionSetting
+WARN: HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+Oct 23, 2023 7:36:02 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@573a078] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 23, 2023 7:36:02 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@660296d5] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 23, 2023 7:36:04 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/join_db]
+]]></system-err>
+  </testcase>
+  <testcase name="join_to_one_test" classname="com.jdc.weekend.AllTest" time="2.34">
+    <system-out><![CDATA[Hibernate: 
+    alter table product 
+       drop 
+       foreign key FK1mtsbur82frn64de7balymq9s
+Hibernate: 
+    alter table product_supply 
+       drop 
+       foreign key FKd5kbj71vtqgobht498rfakxe9
+Hibernate: 
+    alter table product_supply 
+       drop 
+       foreign key FKtffg6kcs1pim932ltxgwjtd90
+Hibernate: 
+    drop table if exists category
+Hibernate: 
+    drop table if exists product
+Hibernate: 
+    drop table if exists product_supply
+Hibernate: 
+    drop table if exists supplier
+Hibernate: 
+    create table category (
+        id integer not null auto_increment,
+        name varchar(20) not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table product (
+        category_id integer,
+        id integer not null auto_increment,
+        name varchar(20) not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table product_supply (
+        product_id integer not null,
+        supplier_id integer not null
+    ) engine=InnoDB
+Hibernate: 
+    create table supplier (
+        id integer not null auto_increment,
+        name varchar(20),
+        phone varchar(20) not null,
+        email varchar(40) not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    alter table category 
+       add constraint UK_46ccwnsi9409t36lurvtyljak unique (name)
+Hibernate: 
+    alter table product 
+       add constraint UK_jmivyxk9rmgysrmsqw15lqr5b unique (name)
+Hibernate: 
+    alter table supplier 
+       add constraint UK_c3fclhmodftxk4d0judiafwi3 unique (name)
+Hibernate: 
+    alter table product 
+       add constraint FK1mtsbur82frn64de7balymq9s 
+       foreign key (category_id) 
+       references category (id)
+Hibernate: 
+    alter table product_supply 
+       add constraint FKd5kbj71vtqgobht498rfakxe9 
+       foreign key (supplier_id) 
+       references supplier (id)
+Hibernate: 
+    alter table product_supply 
+       add constraint FKtffg6kcs1pim932ltxgwjtd90 
+       foreign key (product_id) 
+       references product (id)
+Hibernate: insert into category (name) values ('Foods')
+Hibernate: insert into category (name) values ('Drinks')
+Hibernate: insert into category (name) values ('Mobiles')
+Hibernate: insert into product(name, category_id) values ('Potato Chips', 1)
+Hibernate: insert into product(name, category_id) values ('Fish Chips', 1)
+Hibernate: insert into product(name, category_id) values ('Coke', 2)
+Hibernate: insert into product(name, category_id) values ('Pepsi', 2)
+Hibernate: insert into product(name) values ('iPhone 13')
+Hibernate: insert into supplier (name, phone, email) values ('196 Store', '0911889900', 'store196@gmail.com')
+Hibernate: insert into supplier (name, phone, email) values ('Star Shop', '0911889911', 'starshop@gmail.com')
+Hibernate: insert into supplier (name, phone, email) values ('Moon Star', '0911889922', 'moonstar@gmail.com')
+Hibernate: insert into product_supply(product_id, supplier_id) values (1, 1)
+Hibernate: insert into product_supply(product_id, supplier_id) values (2, 1)
+Hibernate: insert into product_supply(product_id, supplier_id) values (3, 2)
+Hibernate: insert into product_supply(product_id, supplier_id) values (4, 2)
+Hibernate: 
+    select
+        p1_0.id,
+        p1_0.category_id,
+        p1_0.name 
+    from
+        product p1_0 
+    join
+        category c1_0 
+            on c1_0.id=p1_0.category_id 
+    where
+        c1_0.name=?
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.name,
+        p1_0.category_id,
+        p1_0.id,
+        p1_0.name 
+    from
+        category c1_0 
+    left join
+        product p1_0 
+            on c1_0.id=p1_0.category_id 
+    where
+        c1_0.id=?
+Coke
+Pepsi
+]]></system-out>
+    <system-err><![CDATA[Oct 23, 2023 7:36:04 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [name: join-in-jpql]
+Oct 23, 2023 7:36:04 PM org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl lambda$normalizeConnectionAccessUserAndPass$6
+WARN: HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.user], use [jakarta.persistence.jdbc.user] instead
+Oct 23, 2023 7:36:04 PM org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl lambda$normalizeConnectionAccessUserAndPass$12
+WARN: HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.password], use [jakarta.persistence.jdbc.password] instead
+Oct 23, 2023 7:36:04 PM org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl normalizeDataAccess
+WARN: HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.url], use [jakarta.persistence.jdbc.url] instead
+Oct 23, 2023 7:36:04 PM org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl normalizeDataAccess
+WARN: HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.driver], use [jakarta.persistence.jdbc.driver] instead
+Oct 23, 2023 7:36:04 PM org.hibernate.cache.internal.RegionFactoryInitiator initiateService
+INFO: HHH000026: Second-level cache disabled
+Oct 23, 2023 7:36:04 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using built-in connection pool (not intended for production use)
+Oct 23, 2023 7:36:04 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+Oct 23, 2023 7:36:04 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/join_db]
+Oct 23, 2023 7:36:04 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=joinusr}
+Oct 23, 2023 7:36:04 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Oct 23, 2023 7:36:04 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH10001115: Connection pool size: 20 (min=1)
+Oct 23, 2023 7:36:04 PM org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator$ActionGrouping determineJpaDbActionSetting
+WARN: HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+Oct 23, 2023 7:36:04 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Oct 23, 2023 7:36:04 PM org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator$ActionGrouping determineJpaDbActionSetting
+WARN: HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+Oct 23, 2023 7:36:04 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@359e27d2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 23, 2023 7:36:04 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@61c87f1b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 23, 2023 7:36:06 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/join_db]
+]]></system-err>
+  </testcase>
+  <testcase name="join_to_many_test" classname="com.jdc.weekend.AllTest" time="1.934">
+    <system-out><![CDATA[Hibernate: 
+    alter table product 
+       drop 
+       foreign key FK1mtsbur82frn64de7balymq9s
+Hibernate: 
+    alter table product_supply 
+       drop 
+       foreign key FKd5kbj71vtqgobht498rfakxe9
+Hibernate: 
+    alter table product_supply 
+       drop 
+       foreign key FKtffg6kcs1pim932ltxgwjtd90
+Hibernate: 
+    drop table if exists category
+Hibernate: 
+    drop table if exists product
+Hibernate: 
+    drop table if exists product_supply
+Hibernate: 
+    drop table if exists supplier
+Hibernate: 
+    create table category (
+        id integer not null auto_increment,
+        name varchar(20) not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table product (
+        category_id integer,
+        id integer not null auto_increment,
+        name varchar(20) not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table product_supply (
+        product_id integer not null,
+        supplier_id integer not null
+    ) engine=InnoDB
+Hibernate: 
+    create table supplier (
+        id integer not null auto_increment,
+        name varchar(20),
+        phone varchar(20) not null,
+        email varchar(40) not null,
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    alter table category 
+       add constraint UK_46ccwnsi9409t36lurvtyljak unique (name)
+Hibernate: 
+    alter table product 
+       add constraint UK_jmivyxk9rmgysrmsqw15lqr5b unique (name)
+Hibernate: 
+    alter table supplier 
+       add constraint UK_c3fclhmodftxk4d0judiafwi3 unique (name)
+Hibernate: 
+    alter table product 
+       add constraint FK1mtsbur82frn64de7balymq9s 
+       foreign key (category_id) 
+       references category (id)
+Hibernate: 
+    alter table product_supply 
+       add constraint FKd5kbj71vtqgobht498rfakxe9 
+       foreign key (supplier_id) 
+       references supplier (id)
+Hibernate: 
+    alter table product_supply 
+       add constraint FKtffg6kcs1pim932ltxgwjtd90 
+       foreign key (product_id) 
+       references product (id)
+Hibernate: insert into category (name) values ('Foods')
+Hibernate: insert into category (name) values ('Drinks')
+Hibernate: insert into category (name) values ('Mobiles')
+Hibernate: insert into product(name, category_id) values ('Potato Chips', 1)
+Hibernate: insert into product(name, category_id) values ('Fish Chips', 1)
+Hibernate: insert into product(name, category_id) values ('Coke', 2)
+Hibernate: insert into product(name, category_id) values ('Pepsi', 2)
+Hibernate: insert into product(name) values ('iPhone 13')
+Hibernate: insert into supplier (name, phone, email) values ('196 Store', '0911889900', 'store196@gmail.com')
+Hibernate: insert into supplier (name, phone, email) values ('Star Shop', '0911889911', 'starshop@gmail.com')
+Hibernate: insert into supplier (name, phone, email) values ('Moon Star', '0911889922', 'moonstar@gmail.com')
+Hibernate: insert into product_supply(product_id, supplier_id) values (1, 1)
+Hibernate: insert into product_supply(product_id, supplier_id) values (2, 1)
+Hibernate: insert into product_supply(product_id, supplier_id) values (3, 2)
+Hibernate: insert into product_supply(product_id, supplier_id) values (4, 2)
+Hibernate: 
+    select
+        p1_0.id,
+        p1_0.category_id,
+        p1_0.name 
+    from
+        product p1_0 
+    join
+        (product_supply s1_0 
+    join
+        supplier s1_1 
+            on s1_1.id=s1_0.supplier_id) 
+        on p1_0.id=s1_0.product_id 
+    where
+        s1_1.name=?
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.name,
+        p1_0.category_id,
+        p1_0.id,
+        p1_0.name 
+    from
+        category c1_0 
+    left join
+        product p1_0 
+            on c1_0.id=p1_0.category_id 
+    where
+        c1_0.id=?
+Coke
+Pepsi
+]]></system-out>
+    <system-err><![CDATA[Oct 23, 2023 7:36:06 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [name: join-in-jpql]
+Oct 23, 2023 7:36:06 PM org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl lambda$normalizeConnectionAccessUserAndPass$6
+WARN: HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.user], use [jakarta.persistence.jdbc.user] instead
+Oct 23, 2023 7:36:06 PM org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl lambda$normalizeConnectionAccessUserAndPass$12
+WARN: HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.password], use [jakarta.persistence.jdbc.password] instead
+Oct 23, 2023 7:36:06 PM org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl normalizeDataAccess
+WARN: HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.url], use [jakarta.persistence.jdbc.url] instead
+Oct 23, 2023 7:36:06 PM org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl normalizeDataAccess
+WARN: HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.driver], use [jakarta.persistence.jdbc.driver] instead
+Oct 23, 2023 7:36:06 PM org.hibernate.cache.internal.RegionFactoryInitiator initiateService
+INFO: HHH000026: Second-level cache disabled
+Oct 23, 2023 7:36:06 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using built-in connection pool (not intended for production use)
+Oct 23, 2023 7:36:06 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+Oct 23, 2023 7:36:06 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/join_db]
+Oct 23, 2023 7:36:06 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=joinusr}
+Oct 23, 2023 7:36:06 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Oct 23, 2023 7:36:06 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH10001115: Connection pool size: 20 (min=1)
+Oct 23, 2023 7:36:06 PM org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator$ActionGrouping determineJpaDbActionSetting
+WARN: HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+Oct 23, 2023 7:36:06 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Oct 23, 2023 7:36:06 PM org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator$ActionGrouping determineJpaDbActionSetting
+WARN: HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+Oct 23, 2023 7:36:06 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@50e24ea4] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 23, 2023 7:36:06 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@22172b00] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Oct 23, 2023 7:36:08 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/join_db]
+Oct 23, 2023 7:36:08 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections close
+ERROR: Connection leak detected: there are 1 unclosed connections upon shutting down pool jdbc:mysql://localhost:3306/join_db
+Oct 23, 2023 7:36:08 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl validateConnectionsReturned
+ERROR: Connection leak detected: there are 1 unclosed connections
+]]></system-err>
+  </testcase>
+</testsuite>

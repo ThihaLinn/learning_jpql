@@ -27,4 +27,31 @@ public class AllTest extends AbstractTest {
 		.forEach(System.out::println);
 	}
 	
+	@Test
+	@Order(3)
+	void join_to_one_test() {
+		var jpql ="select p from Product p where p.category.name = :name";
+		var query = em.createQuery(jpql,Product.class);
+		query.setParameter("name","Drinks" );
+		
+		var result = query.getResultList();
+		
+		result.stream().map(Product::getName).forEach(System.out::println);
+		
+	}
+	
+	@Test
+	@Order(4)
+	void join_to_many_test() {
+		var jpql = "select p from Product p join p.supplier s where s.name = :name";
+		var query = em.createQuery(jpql,Product.class);
+		
+		query.setParameter("name", "Star shop");
+		var result = query.getResultStream();
+		result.map(p -> p.getName()).forEach(System.out::println);
+		
+		
+	}
+	
+	
 }
