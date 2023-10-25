@@ -5,7 +5,6 @@
     <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.AfterEach"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Persistence"/>
-    <fullyQualifiedTypeName name="com.jdc.weekend.test.Main"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="com.jdc.weekend.entity.Township"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Embeddable"/>
@@ -23,7 +22,6 @@
     <fullyQualifiedTypeName name="org.junit.jupiter.params.ParameterizedTest"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.params.provider.CsvSource"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.jdc.weekend.entity.Category"/>
     <fullyQualifiedTypeName name="jakarta.persistence.ManyToOne"/>
@@ -36,14 +34,20 @@
     <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
     <fullyQualifiedTypeName name="jakarta.persistence.JoinColumn"/>
     <fullyQualifiedTypeName name="com.jdc.weekend.Main"/>
-    <fullyQualifiedTypeName name="com.jdc.weekend.AbstractTest"/>
-    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
     <fullyQualifiedTypeName name="com.jdc.weekend.entity.Supplier"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.ManyToMany"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.jdc.weekend.entity.Product"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="com.jdc.weekend.dto.SupplierDto"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Order"/>
+    <fullyQualifiedTypeName name="com.jdc.weekend.AbstractTest"/>
+    <fullyQualifiedTypeName name="com.jdc.weekend.dto.CategoryCountDto"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.ManyToMany"/>
+    <fullyQualifiedTypeName name="com.jdc.weekend.dto.SupplierDto"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="com.jdc.weekend.dto.CustomerSaleDate"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="com.jdc.weekend.test.Main"/>
+    <fullyQualifiedTypeName name="com.jdc.weekend.dto.TotalProductCountByTownship"/>
 </qualifiedTypeNameHistroy>
